@@ -22,7 +22,7 @@ export default function WorkoutForm() {
     const workout = { title, load, reps };
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/workouts",
+        "https://mern-app-a3em.onrender.com/api/workouts",
         JSON.stringify(workout),
         {
           headers: {

@@ -11,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await axios("http://localhost:4000/api/workouts", {
+      const response = await axios("https://mern-app-a3em.onrender.com/api/workouts", {
         headers: {
           'Authorization': `Bearer ${user.token}` 
         }

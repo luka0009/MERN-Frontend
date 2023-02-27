@@ -13,7 +13,7 @@ export default function WorkoutDetails({ workout }) {
       return;
     }
     const response = await axios.delete(
-      `http://localhost:4000/api/workouts/${workout._id}`,
+      `https://mern-app-a3em.onrender.com/api/workouts/${workout._id}`,
       {
         headers: {
           Authorization: `Bearer ${user.token}`,
