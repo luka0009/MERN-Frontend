@@ -33,8 +33,8 @@ export default function WorkoutForm() {
       );
       if (response.status >= 200 && response.status < 300) {
         setTitle("");
-        setLoad(0);
-        setReps(0);
+        setLoad('');
+        setReps('');
         setError(null);
         setEmptyFields([]);
         dispatch({ type: "CREATE_WORKOUT", payload: response.data });
