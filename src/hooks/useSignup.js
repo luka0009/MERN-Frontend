@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import { useAuthContext } from './useAuthContext'
+import { useState } from 'react';
+// import { useAuthContext } from './useAuthContext';
+import { useAuthContext } from "../hooks/useAuthContext";
 
 export const useSignup = () => {
   const [error, setError] = useState(null)
