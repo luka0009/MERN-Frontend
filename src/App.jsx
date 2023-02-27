@@ -3,8 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-import { useAuthContext } from "./hooks/useAuthContext.jsx";
-import { useEffect } from "react";
+import { useAuthContext } from "./hooks/useAuthcontext";
 
 // user1@luka.dev
 // MernStack12!

@@ -7,8 +7,8 @@ export default function WorkoutForm() {
   const { dispatch } = useWorkoutsContext();
   const { user } = useAuthContext();
   const [title, setTitle] = useState("");
-  const [load, setLoad] = useState(0);
-  const [reps, setReps] = useState(0);
+  const [load, setLoad] = useState(null);
+  const [reps, setReps] = useState(null);
   const [error, setError] = useState(null);
   const [emptyFields, setEmptyFields] = useState([]);
 
