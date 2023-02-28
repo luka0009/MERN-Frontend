@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useWorkoutsContext } from "../hooks/useWorkoutsContext";
-import { useAuthContext } from "../hooks/useAuthContext";
+import { useAuthContext } from "../hooks/useAuthcontext";
 
 export default function WorkoutForm() {
   const { dispatch } = useWorkoutsContext();
