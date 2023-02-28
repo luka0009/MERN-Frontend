@@ -2,7 +2,7 @@ import axios from "axios";
 import { useWorkoutsContext } from "../hooks/useWorkoutsContext";
 import { RiChatDeleteLine } from "react-icons/ri";
 import { formatDistanceToNow } from "date-fns";
-import { useAuthContext } from "../hooks/useAuthContext";
+import { useAuthContext } from "../hooks/useAuthcontext";
 
 export default function WorkoutDetails({ workout }) {
   const { dispatch } = useWorkoutsContext();
