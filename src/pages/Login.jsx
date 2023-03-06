@@ -30,7 +30,7 @@ export default function Login() {
         value={password}
         />
 
-        <button disabled={isLoading} type="submit"> Log In </button>
+        <button disabled={isLoading} type="submit"> {isLoading ? 'Loading...' : 'Log In' } </button>
         {error && <div className="error">{error}</div>}
     </form>
   )

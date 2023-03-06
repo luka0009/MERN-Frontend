@@ -30,7 +30,7 @@ export default function Signup() {
         value={password}
       />
 
-      <button disabled={isLoading} type="submit"> Sign up </button>
+      <button disabled={isLoading} type="submit"> {isLoading ? 'Loading...' : 'Sign Up' } </button>
       {error && <div className="error">{error}</div>}
     </form>
   );
